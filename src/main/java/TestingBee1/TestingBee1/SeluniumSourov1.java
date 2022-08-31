@@ -72,6 +72,7 @@ public class SeluniumSourov1 {
 		action.moveToElement(sddd).perform();
 		Thread.sleep(3000);
 		driver.quit();
+		driver.close();
 		//Quit= close every associated window opened by the Selenium
 		
 	 

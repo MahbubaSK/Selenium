@@ -35,16 +35,16 @@ public class ParaBank {
 			
 			driver.findElement(By.xpath("//input[@id='customer.firstName']")).sendKeys("Mahbuba");
 			
-			driver.findElement(By.xpath("//input[@id='customer.lastName']")).sendKeys("Adam");
-			driver.findElement(By.xpath("//input[@id='customer.address.street']")).sendKeys("777 Lincoln ave");
-			driver.findElement(By.xpath("//input[@id='customer.address.city']")).sendKeys("Brooklyn");
-			driver.findElement(By.xpath("//input[@name='customer.address.state']")).sendKeys("NYC");
-			driver.findElement(By.xpath("//input[@id='customer.address.zipCode']")).sendKeys("11123");
-			driver.findElement(By.xpath("//input[@name='customer.phoneNumber']")).sendKeys("98765432q1");
-			driver.findElement(By.xpath("//input[@name='customer.ssn']")).sendKeys("121-99-9999");
-			driver.findElement(By.xpath("//input[@name='customer.username']")).sendKeys("Mosammat");
-	        driver.findElement(By.xpath("//input[@id='customer.password']")).sendKeys("1234tashin");
-	        driver.findElement(By.xpath("//input[@name='repeatedPassword']")).sendKeys("1234tashin");
+			driver.findElement(By.xpath("//input[@id='customer.lastName']")).sendKeys("Masuma");
+			driver.findElement(By.xpath("//input[@id='customer.address.street']")).sendKeys("shhanaLata");
+			driver.findElement(By.xpath("//input[@id='customer.address.city']")).sendKeys("Hafjaapu");
+			driver.findElement(By.xpath("//input[@name='customer.address.state']")).sendKeys("ShailaApu");
+			driver.findElement(By.xpath("//input[@id='customer.address.zipCode']")).sendKeys("UmmeAunty");
+			driver.findElement(By.xpath("//input[@name='customer.phoneNumber']")).sendKeys("DeppaKamini");
+			driver.findElement(By.xpath("//input[@name='customer.ssn']")).sendKeys("Ashiq");
+			driver.findElement(By.xpath("//input[@name='customer.username']")).sendKeys("Banna Hasan");
+	        driver.findElement(By.xpath("//input[@id='customer.password']")).sendKeys("Shourov");
+	        driver.findElement(By.xpath("//input[@name='repeatedPassword']")).sendKeys("Sk");
 	        driver.findElement(By.xpath("//input[@value='Register']")).click();
 			
 	
